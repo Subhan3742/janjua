@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+@theme {
+  /* ---- Brand palette ---------------------------------------------- */
+  --color-ink: #080808;
+  --color-charcoal: #171717;
+  --color-charcoal-soft: #201f1d;
+  --color-gold: #c99a3d;
+  --color-gold-light: #e4c477;
+  --color-gold-dark: #9c7328;
+  --color-cream: #f7f3ea;
+  --color-cream-dark: #ece5d6;
+  --color-sand: #d9cfbb;
+
+  /* ---- Typography -------------------------------------------------- */
+  --font-display: var(--font-cormorant), "Times New Roman", serif;
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  --font-script: var(--font-italianno), cursive;
+
+  /* ---- Motion ------------------------------------------------------ */
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  color-scheme: light;
+  --header-h: 76px;
+}
+
+* {
+  border-color: color-mix(in srgb, var(--color-ink) 10%, transparent);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}
+
+/* Slim, brand-coloured scrollbar on desktop */
+@media (min-width: 1024px) {
+  ::-webkit-scrollbar { width: 10px; }
+  ::-webkit-scrollbar-track { background: var(--color-cream-dark); }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--color-gold) 70%, var(--color-charcoal));
+    border: 3px solid var(--color-cream-dark);
+    border-radius: 999px;
+  }
+}
+
+@layer utilities {
+  .container-x {
+    width: 100%;
+    max-width: 1320px;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 640px) { .container-x { padding-inline: 2rem; } }
+  @media (min-width: 1024px) { .container-x { padding-inline: 3rem; } }
+
+  /* Eyebrow / kicker label above headings */
+  .eyebrow {
+    font-size: 0.6875rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  /* Brushed-gold text for numerals and small accents */
+  .text-gilded {
+    background: linear-gradient(112deg, #9c7328 0%, #e4c477 38%, #c99a3d 58%, #f0dcab 78%, #9c7328 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .hairline {
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      color-mix(in srgb, var(--color-gold) 60%, transparent),
+      transparent
+    );
+  }
+
+  /* Fine linen weave — used behind dark sections */
+  .bg-weave {
+    background-image:
+      repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.016) 0 1px, transparent 1px 3px),
+      repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.016) 0 1px, transparent 1px 3px);
+  }
+
+  .shadow-luxe {
+    box-shadow:
+      0 1px 2px rgba(8, 8, 8, 0.04),
+      0 18px 50px -24px rgba(8, 8, 8, 0.28);
+  }
+
+  .balance { text-wrap: balance; }
+}
+
+/* Focus ring that fits the brand instead of the browser default */
+:where(a, button, input, textarea, select, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

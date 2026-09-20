@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" width="900" height="1125" role="img" aria-label="Curtain interior illustration">
+  
+  <defs>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e4c477"/>
+      <stop offset="0.45" stop-color="#c99a3d"/>
+      <stop offset="1" stop-color="#8a6520"/>
+    </linearGradient>
+    <linearGradient id="panelShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.26"/>
+      <stop offset="0.35" stop-color="#000000" stop-opacity="0.03"/>
+      <stop offset="0.82" stop-color="#000000" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.34"/>
+    </linearGradient>
+    <linearGradient id="daylight" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#f6efe1"/>
+      <stop offset="0.5" stop-color="#e8dcc6"/>
+      <stop offset="1" stop-color="#cbbda2"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.32" r="0.72">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.42" r="0.76">
+      <stop offset="0.4" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1125" fill="#e7dfd1"/>
+  <rect x="180" y="123" width="540" height="890" fill="url(#daylight)"/>
+  <rect x="180" y="123" width="540" height="890" fill="url(#glow)"/>
+  <line x1="450" y1="123" x2="450" y2="1013" stroke="#f2ead9" stroke-opacity="0.35" stroke-width="3"/>
+  
+  <g opacity="1"><path d="M-36.0 113 H-12.1 V1013.0 Q-24.1 1013.0 -36.0 1013.0 Z" fill="#e1d4ba"/><line x1="-12.1" y1="113" x2="-12.1" y2="1013.0" stroke="#b3a487" stroke-width="0.8" opacity="0.5"/><path d="M-12.8 113 H4.2 V1015.3 Q-4.3 1020.6 -12.8 1015.3 Z" fill="#e9ddc6"/><line x1="4.2" y1="113" x2="4.2" y2="1015.3" stroke="#b6a88d" stroke-width="0.8" opacity="0.5"/><path d="M3.5 113 H32.6 V1016.7 Q18.1 1025.3 3.5 1016.7 Z" fill="#a39275"/><line x1="32.6" y1="113" x2="32.6" y2="1016.7" stroke="#978668" stroke-width="0.8" opacity="0.5"/><path d="M31.9 113 H55.3 V1018.1 Q43.6 1030.1 31.9 1018.1 Z" fill="#b8a88b"/><line x1="55.3" y1="113" x2="55.3" y2="1018.1" stroke="#a09072" stroke-width="0.8" opacity="0.5"/><path d="M54.6 113 H73.6 V1018.2 Q64.1 1030.3 54.6 1018.2 Z" fill="#eee3ce"/><line x1="73.6" y1="113" x2="73.6" y2="1018.2" stroke="#b9aa90" stroke-width="0.8" opacity="0.5"/><path d="M72.9 113 H95.2 V1018.8 Q84.1 1032.3 72.9 1018.8 Z" fill="#d1c1a4"/><line x1="95.2" y1="113" x2="95.2" y2="1018.8" stroke="#ac9b7e" stroke-width="0.8" opacity="0.5"/><path d="M94.5 113 H113.6 V1020.1 Q104.1 1036.6 94.5 1020.1 Z" fill="#968567"/><line x1="113.6" y1="113" x2="113.6" y2="1020.1" stroke="#918062" stroke-width="0.8" opacity="0.5"/><path d="M112.9 113 H136.4 V1018.2 Q124.7 1030.4 112.9 1018.2 Z" fill="#e6d9c2"/><line x1="136.4" y1="113" x2="136.4" y2="1018.2" stroke="#b5a68b" stroke-width="0.8" opacity="0.5"/><path d="M135.7 113 H152.1 V1017.8 Q143.9 1028.9 135.7 1017.8 Z" fill="#eaddc7"/><line x1="152.1" y1="113" x2="152.1" y2="1017.8" stroke="#b7a88d" stroke-width="0.8" opacity="0.5"/><path d="M151.4 113 H168.0 V1018.5 Q159.7 1031.2 151.4 1018.5 Z" fill="#9f8f71"/><line x1="168.0" y1="113" x2="168.0" y2="1018.5" stroke="#958567" stroke-width="0.8" opacity="0.5"/><path d="M167.3 113 H195.4 V1017.4 Q181.3 1027.6 167.3 1017.4 Z" fill="#d0c0a3"/><line x1="195.4" y1="113" x2="195.4" y2="1017.4" stroke="#ab9b7d" stroke-width="0.8" opacity="0.5"/><path d="M194.7 113 H221.2 V1015.3 Q207.9 1020.6 194.7 1015.3 Z" fill="#efe4cf"/><line x1="221.2" y1="113" x2="221.2" y2="1015.3" stroke="#b9ab91" stroke-width="0.8" opacity="0.5"/><rect x="-36" y="113" width="256.5" height="940" fill="url(#panelShade)"/></g>
+  <g opacity="1"><path d="M679.5 113 H695.9 V1014.3 Q687.7 1017.2 679.5 1014.3 Z" fill="#d8c8ac"/><line x1="695.9" y1="113" x2="695.9" y2="1014.3" stroke="#af9e81" stroke-width="0.8" opacity="0.5"/><path d="M695.2 113 H715.0 V1015.7 Q705.1 1021.8 695.2 1015.7 Z" fill="#eee2cd"/><line x1="715.0" y1="113" x2="715.0" y2="1015.7" stroke="#b9aa90" stroke-width="0.8" opacity="0.5"/><path d="M714.3 113 H733.7 V1017.5 Q724.0 1027.9 714.3 1017.5 Z" fill="#b2a284"/><line x1="733.7" y1="113" x2="733.7" y2="1017.5" stroke="#9e8d6f" stroke-width="0.8" opacity="0.5"/><path d="M733.0 113 H753.1 V1018.3 Q743.0 1030.6 733.0 1018.3 Z" fill="#ac9c7e"/><line x1="753.1" y1="113" x2="753.1" y2="1018.3" stroke="#9b8a6c" stroke-width="0.8" opacity="0.5"/><path d="M752.4 113 H779.3 V1018.9 Q765.9 1032.8 752.4 1018.9 Z" fill="#f0e4d0"/><line x1="779.3" y1="113" x2="779.3" y2="1018.9" stroke="#baab91" stroke-width="0.8" opacity="0.5"/><path d="M778.6 113 H812.0 V1019.4 Q795.3 1034.4 778.6 1019.4 Z" fill="#cdbc9f"/><line x1="812.0" y1="113" x2="812.0" y2="1019.4" stroke="#aa997b" stroke-width="0.8" opacity="0.5"/><path d="M811.3 113 H826.3 V1018.8 Q818.8 1032.4 811.3 1018.8 Z" fill="#958466"/><line x1="826.3" y1="113" x2="826.3" y2="1018.8" stroke="#918062" stroke-width="0.8" opacity="0.5"/><path d="M825.6 113 H852.4 V1018.4 Q839.0 1031.2 825.6 1018.4 Z" fill="#e7dac3"/><line x1="852.4" y1="113" x2="852.4" y2="1018.4" stroke="#b6a68b" stroke-width="0.8" opacity="0.5"/><path d="M851.7 113 H869.6 V1018.8 Q860.7 1032.3 851.7 1018.8 Z" fill="#e6d9c2"/><line x1="869.6" y1="113" x2="869.6" y2="1018.8" stroke="#b5a68b" stroke-width="0.8" opacity="0.5"/><path d="M868.9 113 H890.3 V1018.6 Q879.6 1031.5 868.9 1018.6 Z" fill="#a08f71"/><line x1="890.3" y1="113" x2="890.3" y2="1018.6" stroke="#968567" stroke-width="0.8" opacity="0.5"/><path d="M889.6 113 H907.6 V1015.9 Q898.6 1022.6 889.6 1015.9 Z" fill="#cbba9d"/><line x1="907.6" y1="113" x2="907.6" y2="1015.9" stroke="#a9987a" stroke-width="0.8" opacity="0.5"/><path d="M906.9 113 H936.7 V1015.7 Q921.8 1021.9 906.9 1015.7 Z" fill="#efe4d0"/><line x1="936.7" y1="113" x2="936.7" y2="1015.7" stroke="#b9ab91" stroke-width="0.8" opacity="0.5"/><rect x="679.5" y="113" width="256.5" height="940" fill="url(#panelShade)"/></g>
+  
+    <rect x="-62" y="108" width="1024" height="7" rx="3.5" fill="url(#brass)"/>
+    <circle cx="-66" cy="111.5" r="9" fill="url(#brass)"/>
+    <circle cx="966" cy="111.5" r="9" fill="url(#brass)"/>
+  <rect x="0" y="1043" width="900" height="82" fill="#a29c92"/>
+  <rect x="0" y="1043" width="900" height="5" fill="#ede7dd"/>
+  <rect width="900" height="1125" fill="url(#vignette)"/>
+</svg>
