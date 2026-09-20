@@ -44,17 +44,19 @@ export function Hero({
         transition={{ duration: 2.2, ease }}
       >
         <Image
-          src="/images/hero.svg"
+          src="/images/hero.png"
           alt=""
           fill
           priority
+          quality={82}
           sizes="100vw"
-          className="object-cover"
+          className="object-cover object-[35%_center] sm:object-center"
         />
       </motion.div>
 
-      <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/78 to-ink/15" />
-      <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/25 to-ink/55" />
+      <div className="absolute inset-0 bg-gradient-to-r from-ink from-15% via-ink/70 via-55% to-transparent to-90%" />
+      <div className="absolute inset-0 bg-gradient-to-t from-ink/95 via-transparent to-ink/50" />
+      <div className="absolute inset-0 bg-ink/30 sm:hidden" />
       <div className="bg-weave absolute inset-0" />
 
       {/* Content -------------------------------------------------------- */}
